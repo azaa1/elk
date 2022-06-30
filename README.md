@@ -1,5 +1,5 @@
-# elk
-ELK Server on Ubuntu 20.04 (LTS)
+# ELK Stack
+ELK Stack on Ubuntu 20.04 (LTS)
 
 ## What is ELK Stack? 
 ELK Stack is a collection of open-source software that allows the user to search, analyze, and visualize logs. The generation of logs is from any source in any format, a practice called centralized logging.
