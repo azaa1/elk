@@ -49,8 +49,7 @@ bash elk/scripts/install_elk.sh
 ```
 
 ### Post Installation Configuration:
-> **NOTE:**
-<span style="color:LightSkyBlue ;">
+> **NOTE:** <span style="color:LightSkyBlue ;">
     The configuration of Kibana is only to listen on localhost. You will need to set up a reverse proxy to allow external access.
 </span>
 
