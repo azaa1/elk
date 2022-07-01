@@ -42,5 +42,4 @@ if cat /etc/*release | grep ^NAME | grep -i ubuntu && \
 
 else
    echo -e "${red}Linux Distribution doesn't match requirement${clear}"
-   echo -e "."
 fi
