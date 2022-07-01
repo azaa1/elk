@@ -11,8 +11,9 @@ ELK Stack is a collection of open-source software that allows the user to search
 - **Kibana:** A web interface for searching as well as visualizing logs.
 - **Beats:** This is a lightweight, single-purpose data shipper. It sends data from thousands of machines to Logstash or Elasticsearch.
 
+
 <p align="center">
-  <img src="images/elk.png" width="600" title="elk">
+  <img src="images/elk.png" width="500" height="200" title="elk">
 </p>
 
 ## Prerequisites
