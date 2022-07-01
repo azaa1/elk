@@ -26,9 +26,24 @@ ELK Stack is a collection of open-source software that allows the user to search
 
 ## How to use this repository to install ELK Stack? 
 
-### Steps: 
+### Run Installation Scripts: 
 
-- 1: Clone Repository
+- Clone Repository
 ```
-git clone
+git clone https://github.com/azaa1/elk.git
+```
+
+- Run OpenJDK 11 Installation
+```
+bash elk/scripts/install_openjdk11.sh 
+```
+
+- Run Nginx Installation
+```
+bash elk/scripts/install_nginx.sh 
+```
+
+- Run ELK Installation
+```
+bash elk/scripts/install_elk.sh
 ```
