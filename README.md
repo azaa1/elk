@@ -16,5 +16,11 @@ ELK Stack is a collection of open-source software that allows the user to search
 </p>
 
 ## Prerequisites
+### Server Size
 - Ubuntu 20.04 Server
 - 4GB RAM / 2 CPUs
+
+### Packages
+- OpenJDK 11
+- Nginx
+
