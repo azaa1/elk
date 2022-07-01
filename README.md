@@ -12,5 +12,9 @@ ELK Stack is a collection of open-source software that allows the user to search
 - **Beats:** This is a lightweight, single-purpose data shipper. It sends data from thousands of machines to Logstash or Elasticsearch.
 
 <p align="center">
-  <img src="elk.png" width="600" title="elk">
+  <img src="images/elk.png" width="600" title="elk">
 </p>
+
+## Prerequisites
+- Ubuntu 20.04 Server
+- 4GB RAM / 2 CPUs
