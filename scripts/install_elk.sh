@@ -41,6 +41,21 @@ if cat /etc/*release | grep ^NAME | grep -i ubuntu && \
    sudo systemctl start elasticsearch
    sudo systemctl enable elasticsearch
    echo -e "${green}Done${clear}"
+
+   ## Install kibana ##
+   echo -e "${yellow}========================"
+   echo -e "${yellow}Installing kibana"
+   echo -e "${yellow}========================${clear}"
+   sudo apt install kibana -y
+   echo -e "${green}Done${clear}"
+
+   ## Start and Enable kibana ##
+   echo -e "${yellow}==================================="
+   echo -e "${yellow}Starting and Enabling kibana"
+   echo -e "${yellow}===================================${clear}"
+   sudo systemctl start kibana
+   sudo systemctl enable kibana
+   echo -e "${green}Done${clear}"
 else
    echo -e "${red}Linux Distribution doesn't match requirement${clear}"
 fi

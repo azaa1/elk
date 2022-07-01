@@ -24,3 +24,11 @@ ELK Stack is a collection of open-source software that allows the user to search
 - OpenJDK 11
 - Nginx
 
+## How to use this repository to install ELK Stack? 
+
+### Steps: 
+
+- 1: Clone Repository
+```
+git clone
+```
