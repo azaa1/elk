@@ -110,3 +110,7 @@ bash elk/scripts/install_elk.sh
   -  Kibana is now accessible from your FQDN or public IP address of your Elastic Stack server. Navigate to the address and enter login credentials when prompted.
 
 ### Installing and Configuring the Logstash:
+
+
+### Installing and Configuring the Filebeat:
+
